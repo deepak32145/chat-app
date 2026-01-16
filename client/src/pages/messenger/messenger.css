@@ -27,3 +27,43 @@
     padding: 10px;
     height: 100%;
 }
+.chatBoxBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.chatMessageInput{
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 10px;
+    font-size: 14px;
+    resize: none;
+}
+.chatMessageInput:focus{
+    outline: none;
+}
+.chatSubmitButton{
+    width: 15%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: teal;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.chatBoxTop{
+    height: 90%;
+    overflow-y: scroll;
+}
+.noConversationText{
+    font-size: 50px;
+    color: gray;
+    text-align: center;
+    margin-top: 50px;
+    display: inline-block;
+}
