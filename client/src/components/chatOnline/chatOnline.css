@@ -4,6 +4,7 @@
     margin-bottom: 15px;
     cursor: pointer;
     margin-top: 20px;
+    flex-direction: column;
 }
 .chatOnlineFriend{
     display: flex;
@@ -11,6 +12,7 @@
     margin-right: 15px;
     cursor: pointer;
     flex-direction: row;
+    margin-top: 15px;
 }
 .chatOnlineImg{
     width: 40px;
